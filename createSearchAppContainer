@@ -1,0 +1,2 @@
+#!/bin/bash
+sudo docker container run -d -p 80:80 -v $(pwd)/src:/usr/share/nginx/html --name nginx_htmlapp nginx_image
